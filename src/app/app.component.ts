@@ -19,6 +19,12 @@ export class AppComponent {
       headingStr: "Sunny Day",
       title: 'Archie the Dog',
       modifiedBy: 'Modified 03/01/2020 by Joe Caione'
+    },
+    {
+      imgUrl: "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates-E38KRRk1fvg-unsplash.jpg",
+      headingStr : 'Beach Day',
+      title: 'Rufus the Dog',
+      modifiedBy: 'Modified 02/01/2020 by Jake Oates'
     }
   ];
 }

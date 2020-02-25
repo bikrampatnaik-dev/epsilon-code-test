@@ -5,9 +5,16 @@ import { MatCardModule } from "@angular/material/card";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
+import { MatTableModule } from "@angular/material/table";
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MatCardModule, MatGridListModule],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    MatCardModule,
+    MatGridListModule,
+    MatTableModule
+  ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]
 })

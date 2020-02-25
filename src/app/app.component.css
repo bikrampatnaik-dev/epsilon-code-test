@@ -3,6 +3,7 @@
   font-weight: 600;
   color: #0F5EF0;
 }
+
 .title{
   font-size: 12px;
   font-weight: bold;
@@ -10,6 +11,7 @@
   text-transform: uppercase;
   margin: 18px 0 20px 0;
 }
+
 .modified{
   font-size: 12px;
   font-weight: 400;
@@ -26,10 +28,15 @@
   box-shadow: 0 2px 6px -3px #00000057;
   border-radius: 1px;
 }
+
 .mat-card:hover {
     box-shadow: 0 3px 18px -6px #000000bf;
 }
 
+.col-width {
+    margin-right: 25px;
+    margin-left: 25px;
+}
 
 .mat-card-image {
     margin: 0 -16px 20px -16px;
