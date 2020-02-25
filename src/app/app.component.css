@@ -1,3 +1,7 @@
 p {
   font-family: Lato;
 }
+.img-card-prop {
+  height: 200px;
+  width: 290px;
+}
