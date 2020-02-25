@@ -49,12 +49,8 @@
 
   <h1 class="text-center">TABLE</h1>
   <div class="row">
-    <mat-form-field>
-      <mat-label>Filter</mat-label>
-      <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia">
-    </mat-form-field>
 
-    <div class="mat-elevation-z8">
+    <div class="mat-elevation-z8 col-12">
       <table mat-table [dataSource]="dataSource" matSort>
 
         <!-- ID Column -->
@@ -85,7 +81,7 @@
         <tr mat-row *matRowDef="let row; columns: displayedColumns;">
         </tr>
       </table>
-
+<mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
     </div>     
   </div>
 </div>
