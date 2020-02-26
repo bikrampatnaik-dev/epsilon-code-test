@@ -8,3 +8,25 @@ body, .mat-card {
 .mat-tab-body{
   border: 1px solid #eee !important;
 }
+
+tr.mat-header-row {
+    background: #CBD6E2;
+}
+
+td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+    padding-left: 15px;
+}
+
+.mat-sort-header-button {
+    color: #221F4D !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    font-family: 'Open Sans' !important;
+}
+
+tbody tr:nth-child( odd ) {
+   background: #FFFFFF; 
+}
+tbody tr:nth-child( even ) {
+   background: #F5F8FA; 
+}
