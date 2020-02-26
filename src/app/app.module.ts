@@ -9,6 +9,7 @@ import { HelloComponent } from "./hello.component";
 import { MatTableModule } from "@angular/material/table";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatPaginatorModule } from "@angular/material/paginator";
+import { MatTabsModule } from "@angular/material/tabs";
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { MatPaginatorModule } from "@angular/material/paginator";
     MatGridListModule,
     MatTableModule,
     MatFormFieldModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTabsModule
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]

@@ -4,3 +4,7 @@
 body, .mat-card {
   font-family: 'Open Sans' !important;
 }
+
+.mat-tab-body{
+  border: 1px solid #eee !important;
+}

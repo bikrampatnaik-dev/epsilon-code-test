@@ -34,13 +34,63 @@
 }
 
 .col-width {
-    margin-right: 25px;
-    margin-left: 25px;
+      margin-right: 15px;
+    margin-left: 15px;
 }
 
 .mat-card-image {
-    margin: 0 -16px 20px -16px;
+  margin: 0 -16px 20px -16px;
 }
+
+.mt-40 {
+  margin-top: 40px !important;
+      padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form-control{
+  height: 30px;
+  font-size: 12px;
+  border-radius: 1px;
+  color: #221F4D;
+}
+
+::placeholder {
+  opacity: 50%; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ opacity: 50%;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ opacity: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+    height: 30px;
+    line-height: 0.5;
+    margin-bottom: 30px;
+    background: #0F5EF0;
+    font-size: 12px
+}
+
+.btn:hover{
+  background: #0C4BC0;
+}
+
+label {
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #221F4D
+}
+
 table {
   width: 100%;
 }
