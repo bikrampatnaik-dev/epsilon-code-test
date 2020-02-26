@@ -30,3 +30,28 @@ tbody tr:nth-child( odd ) {
 tbody tr:nth-child( even ) {
    background: #F5F8FA; 
 }
+
+td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+th.mat-header-cell {
+    border-right: 1px solid #867e7e;
+    padding-right: 15px !important;
+}
+
+.mat-sort-header-container{
+  position: relative;
+}
+
+.mat-sort-header-arrow {
+    position: absolute !important;
+    right: 0;
+}
+
+.mat-cell, .mat-footer-cell {
+    font-family: 'Open Sans' !important;
+    font-size: 12px;
+    font-weight: 400;
+}

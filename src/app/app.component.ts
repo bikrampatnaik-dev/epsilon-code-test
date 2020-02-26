@@ -56,14 +56,11 @@ export class AppComponent {
   dataSource; // = new MatTableDataSource(ELEMENT_DATA);
 
   constructor(private httpClient: HttpClient) {
-    this.httpClient
-      .get("http://usweb.dotomi.com/resources/swfs/cookies.json")
-      .subscribe((data: []) => {
-        console.log(data);
-        this.dataSource = new MatTableDataSource(data);
-
-        this.dataSource.sort = this.sort;
-      });
+    this.httpClient.get("assets/cookies.json").subscribe((data: []) => {
+      console.log(data);
+      this.dataSource = new MatTableDataSource(data);
+      this.dataSource.sort = this.sort;
+    });
   }
 
   @ViewChild(MatSort, { static: true }) sort: MatSort;
