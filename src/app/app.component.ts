@@ -32,7 +32,7 @@ export class AppComponent {
   cards = [
     {
       imgUrl:
-        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates-E38KRRk1fvg-unsplash.jpg",
+        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates.jpg",
       headingStr: "Beach Day",
       title: "Rufus the Dog",
       modifiedBy: "Modified 02/01/2020 by Jake Oates"
@@ -46,7 +46,7 @@ export class AppComponent {
     },
     {
       imgUrl:
-        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates-E38KRRk1fvg-unsplash.jpg",
+        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates.jpg",
       headingStr: "Beach Day",
       title: "Rufus the Dog",
       modifiedBy: "Modified 02/01/2020 by Jake Oates"
