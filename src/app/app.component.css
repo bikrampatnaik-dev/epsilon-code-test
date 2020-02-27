@@ -125,5 +125,5 @@ td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:
 }
 
 td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
-    padding-right: 15px;
+    padding: 10px 15px;
 }
