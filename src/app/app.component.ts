@@ -20,10 +20,10 @@ export class AppComponent {
   cards = [
     {
       imgUrl:
-        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates-E38KRRk1fvg-unsplash.jpg",
+        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/joe-caione.jpg",
       headingStr: "Beach Day",
-      title: "Rufus the Dog",
-      modifiedBy: "Modified 02/01/2020 by Jake Oates"
+      title: "Archie the Dog",
+      modifiedBy: "Modified 03/01/2020 by Joe Caione"
     },
     {
       imgUrl:
@@ -34,11 +34,11 @@ export class AppComponent {
     },
     {
       imgUrl:
-        "https://cdn.jsdelivr.net/gh/bikrampatnaik-dev/epsilon-code-test@master/src/assets/jake-oates-E38KRRk1fvg-unsplash.jpg",
-      headingStr: "Beach Day",
-      title: "Rufus the Dog",
-      modifiedBy: "Modified 02/01/2020 by Jake Oates"
-    }
+        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/joe-caione.jpg",
+      headingStr: "Winter Day",
+      title: "Archie the Dog",
+      modifiedBy: "Modified 03/01/2020 by Joe Caione"
+    },
   ];
   displayedColumns: string[] = ["name", "price", "category"];
   dataSource;
