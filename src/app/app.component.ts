@@ -20,7 +20,7 @@ export class AppComponent {
   cards = [
     {
       imgUrl:
-        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/joe-caione.jpg",
+        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/jake-oate.jpg",
       headingStr: "Beach Day",
       title: "Archie the Dog",
       modifiedBy: "Modified 03/01/2020 by Joe Caione"
@@ -34,7 +34,7 @@ export class AppComponent {
     },
     {
       imgUrl:
-        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/joe-caione.jpg",
+        "https://stackblitz.com/files/epsilon-code-test/github/bikrampatnaik-dev/epsilon-code-test/master/src/assets/jake-oate.jpg",
       headingStr: "Winter Day",
       title: "Archie the Dog",
       modifiedBy: "Modified 03/01/2020 by Joe Caione"
